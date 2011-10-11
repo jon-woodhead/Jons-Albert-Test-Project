@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CA22BA14443BDB00FC7755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CA22B914443BDB00FC7755 /* UIKit.framework */; };
+		12CA22BC14443BDB00FC7755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CA22BB14443BDB00FC7755 /* Foundation.framework */; };
+		12CA22BE14443BDB00FC7755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CA22BD14443BDB00FC7755 /* CoreGraphics.framework */; };
+		12CA22C414443BDB00FC7755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12CA22C214443BDB00FC7755 /* InfoPlist.strings */; };
+		12CA22C614443BDB00FC7755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CA22C514443BDB00FC7755 /* main.m */; };
+		12CA22CA14443BDB00FC7755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CA22C914443BDB00FC7755 /* AppDelegate.m */; };
+		12CA22CD14443BDB00FC7755 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CA22CB14443BDB00FC7755 /* MainStoryboard_iPhone.storyboard */; };
+		12CA22D014443BDB00FC7755 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CA22CE14443BDB00FC7755 /* MainStoryboard_iPad.storyboard */; };
+		12CA22D314443BDB00FC7755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CA22D214443BDB00FC7755 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12CA22B514443BDB00FC7755 /* Albert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CA22B914443BDB00FC7755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12CA22BB14443BDB00FC7755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12CA22BD14443BDB00FC7755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12CA22C114443BDB00FC7755 /* Albert-Info.plist */ = {isa = PBXFileReference; path = "Albert-Info.plist"; sourceTree = "<group>"; };
+		12CA22C314443BDB00FC7755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12CA22C514443BDB00FC7755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12CA22C714443BDB00FC7755 /* Albert-Prefix.pch */ = {isa = PBXFileReference; path = "Albert-Prefix.pch"; sourceTree = "<group>"; };
+		12CA22C814443BDB00FC7755 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		12CA22C914443BDB00FC7755 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12CA22CC14443BDB00FC7755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		12CA22CF14443BDB00FC7755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		12CA22D114443BDB00FC7755 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		12CA22D214443BDB00FC7755 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CA22B214443BDB00FC7755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CA22BA14443BDB00FC7755 /* UIKit.framework in Frameworks */,
+				12CA22BC14443BDB00FC7755 /* Foundation.framework in Frameworks */,
+				12CA22BE14443BDB00FC7755 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CA22AA14443BDA00FC7755 = {
+			isa = PBXGroup;
+			children = (
+				12CA22BF14443BDB00FC7755 /* Albert */,
+				12CA22B814443BDB00FC7755 /* Frameworks */,
+				12CA22B614443BDB00FC7755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12CA22B614443BDB00FC7755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12CA22B514443BDB00FC7755 /* Albert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12CA22B814443BDB00FC7755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CA22B914443BDB00FC7755 /* UIKit.framework */,
+				12CA22BB14443BDB00FC7755 /* Foundation.framework */,
+				12CA22BD14443BDB00FC7755 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12CA22BF14443BDB00FC7755 /* Albert */ = {
+			isa = PBXGroup;
+			children = (
+				12CA22C814443BDB00FC7755 /* AppDelegate.h */,
+				12CA22C914443BDB00FC7755 /* AppDelegate.m */,
+				12CA22CB14443BDB00FC7755 /* MainStoryboard_iPhone.storyboard */,
+				12CA22CE14443BDB00FC7755 /* MainStoryboard_iPad.storyboard */,
+				12CA22D114443BDB00FC7755 /* ViewController.h */,
+				12CA22D214443BDB00FC7755 /* ViewController.m */,
+				12CA22C014443BDB00FC7755 /* Supporting Files */,
+			);
+			path = Albert;
+			sourceTree = "<group>";
+		};
+		12CA22C014443BDB00FC7755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12CA22C114443BDB00FC7755 /* Albert-Info.plist */,
+				12CA22C214443BDB00FC7755 /* InfoPlist.strings */,
+				12CA22C514443BDB00FC7755 /* main.m */,
+				12CA22C714443BDB00FC7755 /* Albert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12CA22B414443BDB00FC7755 /* Albert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CA22D614443BDB00FC7755 /* Build configuration list for PBXNativeTarget "Albert" */;
+			buildPhases = (
+				12CA22B114443BDB00FC7755 /* Sources */,
+				12CA22B214443BDB00FC7755 /* Frameworks */,
+				12CA22B314443BDB00FC7755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Albert;
+			productName = Albert;
+			productReference = 12CA22B514443BDB00FC7755 /* Albert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12CA22AC14443BDA00FC7755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 12CA22AF14443BDA00FC7755 /* Build configuration list for PBXProject "Albert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12CA22AA14443BDA00FC7755;
+			productRefGroup = 12CA22B614443BDB00FC7755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CA22B414443BDB00FC7755 /* Albert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12CA22B314443BDB00FC7755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CA22C414443BDB00FC7755 /* InfoPlist.strings in Resources */,
+				12CA22CD14443BDB00FC7755 /* MainStoryboard_iPhone.storyboard in Resources */,
+				12CA22D014443BDB00FC7755 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12CA22B114443BDB00FC7755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CA22C614443BDB00FC7755 /* main.m in Sources */,
+				12CA22CA14443BDB00FC7755 /* AppDelegate.m in Sources */,
+				12CA22D314443BDB00FC7755 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12CA22C214443BDB00FC7755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CA22C314443BDB00FC7755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12CA22CB14443BDB00FC7755 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CA22CC14443BDB00FC7755 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		12CA22CE14443BDB00FC7755 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CA22CF14443BDB00FC7755 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12CA22D414443BDB00FC7755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12CA22D514443BDB00FC7755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12CA22D714443BDB00FC7755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Albert/Albert-Prefix.pch";
+				INFOPLIST_FILE = "Albert/Albert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12CA22D814443BDB00FC7755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Albert/Albert-Prefix.pch";
+				INFOPLIST_FILE = "Albert/Albert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CA22AF14443BDA00FC7755 /* Build configuration list for PBXProject "Albert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CA22D414443BDB00FC7755 /* Debug */,
+				12CA22D514443BDB00FC7755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CA22D614443BDB00FC7755 /* Build configuration list for PBXNativeTarget "Albert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CA22D714443BDB00FC7755 /* Debug */,
+				12CA22D814443BDB00FC7755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12CA22AC14443BDA00FC7755 /* Project object */;
+}
