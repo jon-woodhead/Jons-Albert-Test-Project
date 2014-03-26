@@ -18,6 +18,7 @@
 		12CA22D314443BDB00FC7755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CA22D214443BDB00FC7755 /* ViewController.m */; };
 		9323D9E218E1F4EA008E04D1 /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9323D9E018E1F4EA008E04D1 /* NewVC.m */; };
 		9323D9E318E1F4EB008E04D1 /* NewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9323D9E118E1F4EA008E04D1 /* NewVC.xib */; };
+		9393B13118E2E96800C26E3F /* Twisting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393B13018E2E96800C26E3F /* Twisting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		9323D9DF18E1F4EA008E04D1 /* NewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVC.h; sourceTree = "<group>"; };
 		9323D9E018E1F4EA008E04D1 /* NewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVC.m; sourceTree = "<group>"; };
 		9323D9E118E1F4EA008E04D1 /* NewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewVC.xib; sourceTree = "<group>"; };
+		9393B12F18E2E96800C26E3F /* Twisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twisting.h; sourceTree = "<group>"; };
+		9393B13018E2E96800C26E3F /* Twisting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twisting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				12CA22D114443BDB00FC7755 /* ViewController.h */,
 				12CA22D214443BDB00FC7755 /* ViewController.m */,
 				12CA22C014443BDB00FC7755 /* Supporting Files */,
+				9393B12F18E2E96800C26E3F /* Twisting.h */,
+				9393B13018E2E96800C26E3F /* Twisting.m */,
 			);
 			path = Albert;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				12CA22C614443BDB00FC7755 /* main.m in Sources */,
 				9323D9E218E1F4EA008E04D1 /* NewVC.m in Sources */,
 				12CA22CA14443BDB00FC7755 /* AppDelegate.m in Sources */,
+				9393B13118E2E96800C26E3F /* Twisting.m in Sources */,
 				12CA22D314443BDB00FC7755 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

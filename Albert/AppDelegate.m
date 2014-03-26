@@ -15,8 +15,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    NSLog(@"Hello Jon    !");
-     NSLog(@"What a fine elephant breath dingo");
+    NSLog(@"Hello Jon!");
+     NSLog(@"What a fine night");
     // Override point for customization after application launch.
     return YES;
 }
