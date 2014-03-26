@@ -16,7 +16,7 @@
 {
     
     NSLog(@"Hello Jon    !");
-     NSLog(@"What a fine elephant  dingo");
+     NSLog(@"What a fine elephant breath dingo");
     // Override point for customization after application launch.
     return YES;
 }
